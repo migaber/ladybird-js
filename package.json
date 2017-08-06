@@ -1,0 +1,70 @@
+{
+  "name": "abinstabug-web-sdk",
+  "description": "Instabug web sdk for reporting bugs and sending logs and crash data from web apps",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "gulp test",
+    "serve": "gulp",
+    "build": "gulp dist"
+  },
+  "author": {
+    "name": "Instabug",
+    "email": "admin@instabug.com",
+    "url": "http://instabug.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org"
+    }
+  ],
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb/base",
+    "plugins": [
+      "import"
+    ],
+    "env": {
+      "browser": true
+    }
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "browser-sync": "^2.18.6",
+    "css-loader": "^0.27.3",
+    "del": "^2.2.2",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "html-loader": "^0.4.4",
+    "istanbul-instrumenter-loader": "^2.0.0",
+    "jasmine-core": "^2.5.2",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-spec-reporter": "^3.2.0",
+    "karma": "^1.5.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-ajax": "^0.1.13",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-spec-reporter": "^0.0.30",
+    "karma-webpack": "^2.0.2",
+    "style-loader": "^0.16.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "lodash": "^4.17.4"
+  }
+}
